@@ -1,0 +1,16 @@
+need to normalize tags 
+Case normalization: Convert all tags to lowercase.
+
+Trim whitespace & punctuation: Remove trailing spaces, special characters.
+
+Standardize common synonyms: Map variants to a canonical tag, e.g.:
+
+“rpg”, “role playing”, “role-playing” → “rpg”
+
+“fps”, “first person shooter” → “fps”
+
+Remove or consolidate plurals/singulars: “zombie” vs “zombies”
+
+Fix typos or misspellings (optional with fuzzy matching)
+
+Replace numerals or abbreviations consistently (“2D” vs “two-dimensional”)
